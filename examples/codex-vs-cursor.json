@@ -1,0 +1,23 @@
+{
+  "baseRepo": ".",
+  "baseRef": "HEAD",
+  "goal": "Implement the requested feature and pass the verifier before the rival agent.",
+  "verifyCommand": "npm test",
+  "agents": [
+    {
+      "id": "codex",
+      "preset": "codex"
+    },
+    {
+      "id": "cursor",
+      "preset": "cursor"
+    }
+  ],
+  "peek": {
+    "refreshIntervalSeconds": 30
+  },
+  "tmux": {
+    "sessionPrefix": "agent-arena",
+    "attach": true
+  }
+}
