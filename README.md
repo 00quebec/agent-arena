@@ -1,4 +1,4 @@
-# Agent Arena
+# Agent Arena (WIP)
 
 Agent Arena runs two coding-agent CLIs against the same task in isolated git worktrees. Each agent gets its own workspace, a live tmux pane, a refreshed read-only mirror of the rival workspace, and a claim command. The first agent to claim success and pass your verifier wins.
 
